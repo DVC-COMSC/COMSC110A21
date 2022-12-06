@@ -1,7 +1,7 @@
-all: clean test
-programtest: tests.cpp 
-	g++ -fsanitize=address --std=c++17 tests.cpp -o programtest 
+all: clean main
+programtest: main.cpp 
+	g++ -fsanitize=address --std=c++17 main.cpp -o programtest 
 test: programtest 
 	./programtest
 clean:
-	rm -f programtest a.out
+	rm -f programtest a.out main

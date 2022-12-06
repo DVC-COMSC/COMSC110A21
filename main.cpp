@@ -1,22 +1,9 @@
-#include "main.hpp"
 
-int main()
-{
-	const int SIZE = 10;
-	int usernum;
-	vector<int> number(SIZE);
+/*
+****************************************************************************************************
+Make your code Here
 
-	srand(time(NULL));
 
-	makeVector(number);
-	printVector(number);
-
-	usernum = getInput();
-	insertVector(number, usernum);
-	printVector(number);
-
-	usernum = getInput();
-	printVector(number);
-	deleteVector(number, usernum);
-	printVector(number);
-}
+Once you completed your program, commit/push this file to GitHub Classroom
+****************************************************************************************************
+*/
