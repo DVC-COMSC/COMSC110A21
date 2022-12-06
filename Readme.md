@@ -11,10 +11,10 @@
 
 > Complete your code
 
-> > To run "main.cpp",
+> > To run "main.cpp",<br>
 > > g++ --std=c++17 main.cpp <br>
-> > ./a.out
-> > For windows users,
-> > ./a.exe
-
+> > ./a.out<br>
+> > For windows users,<br>
+> > ./a.exe<br>
+> > <br>
 > > if you want to restore all files, clone again from GitHub with this assignment link.
